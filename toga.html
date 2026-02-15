@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Katalog Digital TOGA - JAMU-TECH</title>
+    <link rel="stylesheet" href="style.css">
+    <style>
+        html { scroll-behavior: smooth; }
+        .card { border: 2px solid #e0e0e0; border-radius: 15px; padding: 15px; background: #fff; display: flex; flex-direction: column; transition: 0.3s; position: relative; }
+        .card:target { border-color: #2e7d32; background: #f1f8e9; transform: scale(1.02); }
+        .proses { background: #e8f5e9; padding: 10px; border-radius: 8px; font-size: 0.85rem; margin: 10px 0; border-left: 4px solid #2e7d32; color: #1b5e20; }
+        .qr-area { margin-top: auto; padding-top: 10px; border-top: 1px dashed #ccc; text-align: center; }
+        .qr-img { width: 80px; height: 80px; margin-bottom: 5px; background: #f9f9f9; }
+    </style>
+</head>
+<body>
+    <header>
+        <nav>
+            <div class="logo">JAMU-TECH</div>
+            <ul>
+                <li><a href="index.html">Beranda</a></li>
+                <li><a href="toga.html">Daftar TOGA</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main class="toga-page">
+        <section class="toga-container">
+            <h1 class="page-title">Katalog & Dosis TOGA Puskesmas Rawabogo</h1>
+            <p style="text-align: center; margin-bottom: 30px;">Scan barcode pada papan tanaman untuk informasi dosis.</p>
+
+            <h3 class="category-title">Bagian Daun & Batang</h3>
+            <div class="card-grid">
+                <div class="card" id="toga1"><img src="daundewa.jpg" class="toga-img"><h3>1. Daun Dewa</h3><p>Muntah Darah</p><div class="proses">Dosis: Rebus 15-30g daun segar dengan 3 gelas air hingga sisa 1 gelas.</div><div class="qr-area"><img src="qr1.png" class="qr-img"><br><small>Scan ID: #toga1</small></div></div>
+                <div class="card" id="toga2"><img src="seledri.jpg" class="toga-img"><h3>2. Seledri</h3><p>Darah Tinggi</p><div class="proses">Dosis: Makan 2-3 tangkai segar setiap hari sebagai lalapan.</div><div class="qr-area"><img src="qr2.png" class="qr-img"><br><small>Scan ID: #toga2</small></div></div>
+                <div class="card" id="toga3"><img src="daunkelor.jpg" class="toga-img"><h3>3. Daun Kelor</h3><p>Panas Dalam</p><div class="proses">Dosis: Masak 1-2 genggam daun sebagai sayur bening.</div><div class="qr-area"><img src="qr3.png" class="qr-img"><br><small>Scan ID: #toga3</small></div></div>
+                <div class="card" id="toga4"><img src="bayamduri.jpg" class="toga-img"><h3>4. Daun Bayam Duri</h3><p>Kurang Darah</p><div class="proses">Dosis: Rebus 1 genggam daun & akar dengan 2 gelas air sisa 1 gelas.</div><div class="qr-area"><img src="qr4.png" class="qr-img"><br><small>Scan ID: #toga4</small></div></div>
+                <div class="card" id="toga5"><img src="saga.jpg" class="toga-img"><h3>5. Saga</h3><p>Batuk & Sariawan</p><div class="proses">Dosis: Rendam daun dalam air panas, gunakan untuk berkumur.</div><div class="qr-area"><img src="qr5.png" class="qr-img"><br><small>Scan ID: #toga5</small></div></div>
+                <div class="card" id="toga6"><img src="pacarcina.jpg" class="toga-img"><h3>6. Pacar Cina</h3><p>Penyakit Kelamin</p><div class="proses">Dosis: Rebus 10g daun dalam 2 gelas air, minum 2x sehari.</div><div class="qr-area"><img src="qr6.png" class="qr-img"><br><small>Scan ID: #toga6</small></div></div>
+                <div class="card" id="toga7"><img src="landep.jpg" class="toga-img"><h3>7. Landep</h3><p>Rematik</p><div class="proses">Dosis: Tumbuk daun segar, balurkan pada bagian yang sakit.</div><div class="qr-area"><img src="qr7.png" class="qr-img"><br><small>Scan ID: #toga7</small></div></div>
+                <div class="card" id="toga8"><img src="miana.jpg" class="toga-img"><h3>8. Miana</h3><p>Wasir</p><div class="proses">Dosis: Rebus 15 lembar daun dengan 2 gelas air hingga sisa 1 gelas.</div><div class="qr-area"><img src="qr8.png" class="qr-img"><br><small>Scan ID: #toga8</small></div></div>
+                <div class="card" id="toga9"><img src="daunsirih.jpg" class="toga-img"><h3>9. Daun Sirih</h3><p>Antiseptik</p><div class="proses">Dosis: Rebus 3-5 lembar daun, gunakan airnya untuk cuci luka.</div><div class="qr-area"><img src="qr9.png" class="qr-img"><br><small>Scan ID: #toga9</small></div></div>
+                <div class="card" id="toga10"><img src="kayumanis.jpg" class="toga-img"><h3>10. Kayu Manis</h3><p>Sesak Nafas</p><div class="proses">Dosis: Seduh 1 batang kecil dengan air panas 200ml.</div><div class="qr-area"><img src="qr10.png" class="qr-img"><br><small>Scan ID: #toga10</small></div></div>
+                <div class="card" id="toga11"><img src="brotowali.jpg" class="toga-img"><h3>11. Brotowali</h3><p>Diabetes/Demam</p><div class="proses">Dosis: Rebus 10cm batang dengan 3 gelas air sisa 1 gelas.</div><div class="qr-area"><img src="qr11.png" class="qr-img"><br><small>Scan ID: #toga11</small></div></div>
+                <div class="card" id="toga12"><img src="kumiskucing.jpg" class="toga-img"><h3>12. Kumis Kucing</h3><p>Infeksi Saluran Kemih</p><div class="proses">Dosis: Rebus 1 genggam daun dengan 2 gelas air.</div><div class="qr-area"><img src="qr12.png" class="qr-img"><br><small>Scan ID: #toga12</small></div></div>
+                <div class="card" id="toga13"><img src="murbei.jpg" class="toga-img"><h3>13. Murbei</h3><p>Kolesterol</p><div class="proses">Dosis: Rebus 10 lembar daun segar dalam 2 gelas air.</div><div class="qr-area"><img src="qr13.png" class="qr-img"><br><small>Scan ID: #toga13</small></div></div>
+                <div class="card" id="toga14"><img src="daunsalam.jpg" class="toga-img"><h3>14. Daun Salam</h3><p>Kolesterol/Maag</p><div class="proses">Dosis: Rebus 10-15 lembar daun dengan 3 gelas air sisa 1 gelas.</div><div class="qr-area"><img src="qr14.png" class="qr-img"><br><small>Scan ID: #toga14</small></div></div>
+                <div class="card" id="toga15"><img src="lidahbuaya.jpg" class="toga-img"><h3>15. Lidah Buaya</h3><p>Luka Bakar</p><div class="proses">Dosis: Oleskan gel bagian dalam daun pada luka bakar ringan.</div><div class="qr-area"><img src="qr15.png" class="qr-img"><br><small>Scan ID: #toga15</small></div></div>
+                <div class="card" id="toga16"><img src="tapakdara.jpg" class="toga-img"><h3>16. Tapak Dara</h3><p>Diabetes</p><div class="proses">Dosis: Rebus 7 lembar daun dengan 2 gelas air.</div><div class="qr-area"><img src="qr16.png" class="qr-img"><br><small>Scan ID: #toga16</small></div></div>
+                <div class="card" id="toga17"><img src="daunkatuk.jpg" class="toga-img"><h3>17. Daun Katuk</h3><p>Melancarkan ASI</p><div class="proses">Dosis: Konsumsi sebagai sayuran masak secara teratur.</div><div class="qr-area"><img src="qr17.png" class="qr-img"><br><small>Scan ID: #toga17</small></div></div>
+                <div class="card" id="toga18"><img src="daunpandan.jpg" class="toga-img"><h3>18. Daun Pandan</h3><p>Darah Tinggi</p><div class="proses">Dosis: Rebus 2 lembar daun, minum airnya selagi hangat.</div><div class="qr-area"><img src="qr18.png" class="qr-img"><br><small>Scan ID: #toga18</small></div></div>
+                <div class="card" id="toga19"><img src="sambiloto.jpg" class="toga-img"><h3>19. Sambiloto</h3><p>Antibiotik Alami</p><div class="proses">Dosis: Rebus 10-15g daun kering, minum air rebusannya.</div><div class="qr-area"><img src="qr19.png" class="qr-img"><br><small>Scan ID: #toga19</small></div></div>
+                <div class="card" id="toga20"><img src="kemangi.jpg" class="toga-img"><h3>20. Kemangi</h3><p>Bau Badan</p><div class="proses">Dosis: Makan segenggam daun segar sebagai lalapan.</div><div class="qr-area"><img src="qr20.png" class="qr-img"><br><small>Scan ID: #toga20</small></div></div>
+                <div class="card" id="toga21"><img src="daunmint.jpg" class="toga-img"><h3>21. Daun Mint</h3><p>Mual/Nafas</p><div class="proses">Dosis: Seduh 5 lembar daun segar dengan air panas.</div><div class="qr-area"><img src="qr21.png" class="qr-img"><br><small>Scan ID: #toga21</small></div></div>
+            </div>
+
+            <h3 class="category-title">Bagian Akar & Rimpang</h3>
+            <div class="card-grid">
+                <div class="card" id="toga22"><img src="pulepandak.jpg" class="toga-img"><h3>22. Pule Pandak</h3><p>Darah Tinggi</p><div class="proses">Dosis: Seduh 100mg bubuk akar kering dengan air panas.</div><div class="qr-area"><img src="qr22.png" class="qr-img"><br><small>Scan ID: #toga22</small></div></div>
+                <div class="card" id="toga23"><img src="jahe.jpg" class="toga-img"><h3>23. Jahe</h3><p>Asma/Hangat</p><div class="proses">Dosis: Geprek 2 ruas jahe, rebus dengan 1 gelas air.</div><div class="qr-area"><img src="qr23.png" class="qr-img"><br><small>Scan ID: #toga23</small></div></div>
+                <div class="card" id="toga24"><img src="kencur.jpg" class="toga-img"><h3>24. Kencur</h3><p>Sakit Kepala</p><div class="proses">Dosis: Parut 2 ruas kencur, peras, tambahkan sedikit garam.</div><div class="qr-area"><img src="qr24.png" class="qr-img"><br><small>Scan ID: #toga24</small></div></div>
+                <div class="card" id="toga25"><img src="kunyit.jpg" class="toga-img"><h3>25. Kunyit</h3><p>Hepatitis/Diare</p><div class="proses">Dosis: Parut 1 ruas kunyit, seduh air hangat, saring.</div><div class="qr-area"><img src="qr25.png" class="qr-img"><br><small>Scan ID: #toga25</small></div></div>
+                <div class="card" id="toga26"><img src="lempuyung.jpg" class="toga-img"><h3>26. Lempuyung</h3><p>Nafsu Makan</p><div class="proses">Dosis: Parut rimpang, seduh dengan air hangat.</div><div class="qr-area"><img src="qr26.png" class="qr-img"><br><small>Scan ID: #toga26</small></div></div>
+                <div class="card" id="toga27"><img src="lengkuas.jpg" class="toga-img"><h3>27. Lengkuas</h3><p>Panu/Jamur</p><div class="proses">Dosis: Gosokkan irisan rimpang pada kulit yang berjamur.</div><div class="qr-area"><img src="qr27.png" class="qr-img"><br><small>Scan ID: #toga27</small></div></div>
+                <div class="card" id="toga28"><img src="alangalang.jpg" class="toga-img"><h3>28. Alang-alang</h3><p>Pelancar Urine</p><div class="proses">Dosis: Rebus 1 genggam akar dengan 2 gelas air sisa 1 gelas.</div><div class="qr-area"><img src="qr28.png" class="qr-img"><br><small>Scan ID: #toga28</small></div></div>
+                <div class="card" id="toga29"><img src="bangle.jpg" class="toga-img"><h3>29. Bangle</h3><p>Sakit Kepala</p><div class="proses">Dosis: Parut rimpang, gunakan sebagai kompres di dahi.</div><div class="qr-area"><img src="qr29.png" class="qr-img"><br><small>Scan ID: #toga29</small></div></div>
+                <div class="card" id="toga30"><img src="pepaya.jpg" class="toga-img"><h3>30. Akar Pepaya</h3><p>Obat Cacing</p><div class="proses">Dosis: Rebus 1 ruas akar dengan 1 gelas air, saring.</div><div class="qr-area"><img src="qr30.png" class="qr-img"><br><small>Scan ID: #toga30</small></div></div>
+            </div>
+
+            <h3 class="category-title">Bagian Biji</h3>
+            <div class="card-grid">
+                <div class="card" id="toga31"><img src="kecubung.jpg" class="toga-img"><h3>31. Kecubung</h3><p>Asma (Luar)</p><div class="proses">Dosis: Obat luar saja. Jangan ditelan (beracun).</div><div class="qr-area"><img src="qr31.png" class="qr-img"><br><small>Scan ID: #toga31</small></div></div>
+                <div class="card" id="toga32"><img src="kapurbarus.jpg" class="toga-img"><h3>32. Kapur Barus</h3><p>Gatal-gatal</p><div class="proses">Dosis: Larutkan dalam minyak kelapa, oles pada area gatal.</div><div class="qr-area"><img src="qr32.png" class="qr-img"><br><small>Scan ID: #toga32</small></div></div>
+                <div class="card" id="toga33"><img src="pinang.jpg" class="toga-img"><h3>33. Pinang</h3><p>Obat Cacing</p><div class="proses">Dosis: Rebus irisian 1/2 biji pinang tua dengan 2 gelas air.</div><div class="qr-area"><img src="qr33.png" class="qr-img"><br><small>Scan ID: #toga33</small></div></div>
+                <div class="card" id="toga34"><img src="kedawung.jpg" class="toga-img"><h3>34. Kedawung</h3><p>Mulas/Diare</p><div class="proses">Dosis: Sangrai biji, haluskan, seduh 1 sdt dengan air panas.</div><div class="qr-area"><img src="qr34.png" class="qr-img"><br><small>Scan ID: #toga34</small></div></div>
+                <div class="card" id="toga35"><img src="pala.jpg" class="toga-img"><h3>35. Pala</h3><p>Insomnia</p><div class="proses">Dosis: Seduh sedikit parutan biji pala dengan air hangat.</div><div class="qr-area"><img src="qr35.png" class="qr-img"><br><small>Scan ID: #toga35</small></div></div>
+                <div class="card" id="toga36"><img src="jamblang.jpg" class="toga-img"><h3>36. Jamblang (Biji)</h3><p>Diabetes</p><div class="proses">Dosis: Tumbuk biji kering, seduh 1 sdm bubuknya.</div><div class="qr-area"><img src="qr36.png" class="qr-img"><br><small>Scan ID: #toga36</small></div></div>
+            </div>
+
+            <h3 class="category-title">Bagian Buah</h3>
+            <div class="card-grid">
+                <div class="card" id="toga37"><img src="delima.jpg" class="toga-img"><h3>37. Delima</h3><p>Cacing Pita</p><div class="proses">Dosis: Rebus kulit buah delima kering, minum airnya.</div><div class="qr-area"><img src="qr37.png" class="qr-img"><br><small>Scan ID: #toga37</small></div></div>
+                <div class="card" id="toga38"><img src="jeruknipis.jpg" class="toga-img"><h3>38. Jeruk Nipis</h3><p>Batuk/Demam</p><div class="proses">Dosis: Peras 1 buah, campur madu/kecap, minum 3x sehari.</div><div class="qr-area"><img src="qr38.png" class="qr-img"><br><small>Scan ID: #toga38</small></div></div>
+                <div class="card" id="toga39"><img src="cabaimerah.jpg" class="toga-img"><h3>39. Cabai Merah</h3><p>Rematik (Luar)</p><div class="proses">Dosis: Tumbuk buah, campur minyak, balurkan pada area sakit.</div><div class="qr-area"><img src="qr39.png" class="qr-img"><br><small>Scan ID: #toga39</small></div></div>
+                <div class="card" id="toga40"><img src="belimbingwuluh.jpg" class="toga-img"><h3>40. Belimbing Wuluh</h3><p>Darah Tinggi</p><div class="proses">Dosis: Rebus 3 buah belimbing wuluh, minum air rebusannya.</div><div class="qr-area"><img src="qr40.png" class="qr-img"><br><small>Scan ID: #toga40</small></div></div>
+                <div class="card" id="toga41"><img src="mengkudu.jpg" class="toga-img"><h3>41. Mengkudu</h3><p>Amandel/Liver</p><div class="proses">Dosis: Parut buah matang, peras airnya, minum dengan madu.</div><div class="qr-area"><img src="qr41.png" class="qr-img"><br><small>Scan ID: #toga41</small></div></div>
+                <div class="card" id="toga42"><img src="kapulaga.jpg" class="toga-img"><h3>42. Kapulaga</h3><p>Mual/Kembung</p><div class="proses">Dosis: Rebus 5 butir buah kapulaga, minum airnya.</div><div class="qr-area"><img src="qr42.png" class="qr-img"><br><small>Scan ID: #toga42</small></div></div>
+                <div class="card" id="toga43"><img src="stroberi.jpg" class="toga-img"><h3>43. Stroberi</h3><p>Kesehatan Gigi</p><div class="proses">Dosis: Hancurkan 1 buah, gosokkan pada gigi untuk pemutih.</div><div class="qr-area"><img src="qr43.png" class="qr-img"><br><small>Scan ID: #toga43</small></div></div>
+            </div>
+        </section>
+    </main>
+
+    <footer style="margin-top: 50px; background: #2e7d32; color: white; text-align: center; padding: 20px;">
+        <p>&copy; 2026 JAMU-TECH | Puskesmas Rawabogo | Wanda Restu Priatna AMd.,A.K</p>
+    </footer>
+</body>
+</html>
